@@ -1,0 +1,10 @@
+This will be the URL path for the POST endpoint.
+http://localhost:8080/api/products
+
+Complete URL Path for GET by ID
+URL Path: http://localhost:8080/api/products/{id} 
+
+Expected Status Code for a Non-Existent Item in the GET by ID Request:
+ http://localhost:8080/api/products/999 for a non-existent ID like 999
+
+Expected Status Code: 404 Not Found
